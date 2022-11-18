@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --light: #fafafa;
+  --nav-light: #f6f6f6;
+  --text-secondary: #737373;
+  --text: #252b42;
+  --primary: #ff7b47;
+  --secondary: #0d5c63;
+  --dark: #252b42;
+  --text-light: #ffffff;
+  --input-light: #f9f9f9;
+  --border: #bdbdbd;
+}
+html {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background: var(--nav-light);
+}
+h1 {
+  font-size: 2.85rem;
+  font-weight: 700;
+  line-height: 4rem;
+  color: var(--text);
+  text-align: center;
+}
+h2 {
+  font-size: 2.85rem;
+  font-weight: 700;
+  line-height: 4rem;
+  color: var(--text);
+  text-align: center;
+}
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  color: var(--text-secondary);
+}
+h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: var(--text);
+}
+footer {
+  background: var(--dark);
+}
+.logo {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  text-decoration: none;
+  color: var(--text);
+}
+.navigation a {
+  font-size: 2.15rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  text-decoration: none;
+  color: var(--text-secondary);
+}
+
+.section-one {
+  background: var(--light);
+}
+.section-one p {
+  font-size: 1.4rem;
+  line-height: 2.15rem;
+  text-align: center;
+}
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 187px;
+  height: 48px;
+  border-radius: 37px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2rem;
+  text-decoration: none;
+  color: var(--text-light);
+  background: var(--primary);
+}
+.learn-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 157px;
+  height: 48px;
+  border-radius: 37px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2rem;
+  text-decoration: none;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+.industry p {
+  text-align: center;
+}
+.who-we-are p {
+  text-align: center;
+}
+.who-we-are {
+  background: var(--light);
+}
+.what-say p {
+  text-align: center;
+}
+.review p {
+  font-weight: 600;
+  line-height: 1.7rem;
+}
+.author-name {
+  color: var(--primary);
+}
+.author-position {
+  color: var(--text);
+}
+.booking input,
+select,
+textarea {
+  background: var(--input-light);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--border);
+}
+.booking button {
+  background: var(--primary);
+  border-radius: 5px;
+  border: none;
+  color: var(--text-light);
+  width: 286px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.contact {
+  background: var(--primary);
+  border-radius: 5px;
+  border: none;
+  color: var(--text-light);
+  width: 286px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 700;
+}
+footer h3 {
+  color: var(--text-light);
+}
+.consultal {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+}
+footer nav a {
+  color: var(--text-light);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.7rem;
+  text-decoration: none;
+}
+.subscribtion {
+  background: var(--input-light);
+  color: var(--text-light);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}
+.subscribtion input {
+  border: none;
+  background: none;
+}
+.subscribtion input::placeholder {
+  color: var(--text-light);
+}
+.subscribtion button {
+  background: var(--primary);
+  border-radius: 5px;
+  border: none;
+  color: var(--text-light);
+  width: 117px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border-radius: 0 5px 5px 0;
+}
+footer p {
+  color: var(--text-light);
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
