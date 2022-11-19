@@ -10,54 +10,54 @@
   --text-light: #ffffff;
   --input-light: #f9f9f9;
   --border: #bdbdbd;
+  font-size: 62.5%;
 }
 html {
-  font-size: 14px;
   font-family: "Montserrat", sans-serif;
 }
 header {
   background: var(--nav-light);
 }
 h1 {
-  font-size: 2.85rem;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 4rem;
+  line-height: 5.7rem;
   color: var(--text);
   text-align: center;
 }
 h2 {
-  font-size: 2.85rem;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 4rem;
+  line-height: 5.7rem;
   color: var(--text);
   text-align: center;
 }
 p {
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 500;
-  line-height: 1.4rem;
+  line-height: 2rem;
   color: var(--text-secondary);
 }
 h3 {
-  font-size: 1.15rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 2.4rem;
   color: var(--text);
 }
 footer {
   background: var(--dark);
 }
 .logo {
-  font-size: 1.7rem;
+  font-size: 2.4rem;
   font-weight: 700;
-  line-height: 2.3rem;
+  line-height: 3.2rem;
   text-decoration: none;
   color: var(--text);
 }
 .navigation a {
-  font-size: 2.15rem;
+  font-size: 3rem;
   font-weight: 400;
-  line-height: 3.2rem;
+  line-height: 4.5rem;
   text-decoration: none;
   color: var(--text-secondary);
 }
@@ -66,8 +66,8 @@ footer {
   background: var(--light);
 }
 .section-one p {
-  font-size: 1.4rem;
-  line-height: 2.15rem;
+  font-size: 2rem;
+  line-height: 3rem;
   text-align: center;
 }
 .quote {
@@ -77,9 +77,9 @@ footer {
   width: 187px;
   height: 48px;
   border-radius: 37px;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 2.8rem;
   text-decoration: none;
   color: var(--text-light);
   background: var(--primary);
@@ -91,28 +91,39 @@ footer {
   width: 157px;
   height: 48px;
   border-radius: 37px;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 2.8rem;
   text-decoration: none;
   color: var(--secondary);
   border: 1px solid var(--secondary);
 }
 .industry p {
   text-align: center;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+.card_body {
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
 .who-we-are p {
   text-align: center;
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
 .who-we-are {
   background: var(--light);
 }
 .what-say p {
   text-align: center;
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
 .review p {
   font-weight: 600;
-  line-height: 1.7rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
 }
 .author-name {
   color: var(--primary);
@@ -127,6 +138,8 @@ textarea {
   border: 1px solid var(--border);
   border-radius: 5px;
   color: var(--border);
+  font-size: 1.4rem;
+  line-height: 2.4rem;
 }
 .booking button {
   background: var(--primary);
@@ -139,6 +152,8 @@ textarea {
   align-items: center;
   justify-content: center;
   font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
 }
 .contact {
   background: var(--primary);
@@ -152,20 +167,22 @@ textarea {
   justify-content: center;
   text-decoration: none;
   font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
 }
 footer h3 {
   color: var(--text-light);
 }
 .consultal {
-  font-size: 1.7rem;
+  font-size: 2.4rem;
   font-weight: 700;
-  line-height: 2.3rem;
+  line-height: 3.2rem;
 }
 footer nav a {
   color: var(--text-light);
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 600;
-  line-height: 1.7rem;
+  line-height: 2.4rem;
   text-decoration: none;
 }
 .subscribtion {
@@ -193,10 +210,12 @@ footer nav a {
   justify-content: center;
   font-weight: 700;
   border-radius: 0 5px 5px 0;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
 }
 footer p {
   color: var(--text-light);
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 2rem;
+  line-height: 2.8rem;
 }
