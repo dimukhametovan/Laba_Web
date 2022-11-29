@@ -12,6 +12,10 @@
   --border: #bdbdbd;
   font-size: 62.5%;
 }
+
+* {
+  box-sizing: border-box;
+}
 html {
   font-family: "Montserrat", sans-serif;
 }
@@ -24,6 +28,9 @@ h1 {
   line-height: 5.7rem;
   color: var(--text);
   text-align: center;
+  min-width: 234px;
+  max-width: 635px;
+  margin: 0 auto 40px auto;
 }
 h2 {
   font-size: 4rem;
@@ -46,6 +53,10 @@ h3 {
 }
 footer {
   background: var(--dark);
+  padding: 40px 10% 70px;
+}
+ul {
+  list-style: none;
 }
 .logo {
   font-size: 2.4rem;
@@ -53,6 +64,21 @@ footer {
   line-height: 3.2rem;
   text-decoration: none;
   color: var(--text);
+  display: block;
+  padding: 13px 71px 13px 0;
+  width: fit-content;
+  position: relative;
+  top: 23px;
+  left: 35px;
+}
+.navigation {
+  padding-top: 83px;
+  padding-bottom: 68px;
+}
+.navigation li {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: fit-content;
 }
 .navigation a {
   font-size: 3rem;
@@ -64,11 +90,16 @@ footer {
 
 .section-one {
   background: var(--light);
+  padding-top: 80px;
+  padding-bottom: 52px;
 }
 .section-one p {
   font-size: 2rem;
   line-height: 3rem;
   text-align: center;
+  width: 70%;
+  max-width: 539px;
+  margin: 0 auto 40px auto;
 }
 .quote {
   display: flex;
@@ -83,6 +114,7 @@ footer {
   text-decoration: none;
   color: var(--text-light);
   background: var(--primary);
+  margin: 0 auto 25px auto;
 }
 .learn-more {
   display: flex;
@@ -97,28 +129,78 @@ footer {
   text-decoration: none;
   color: var(--secondary);
   border: 1px solid var(--secondary);
+  margin: 0 auto;
+}
+.section-two {
+  padding-top: 30px;
+  padding-bottom: 130px;
+}
+.industry {
+  padding: 45px 0;
+  width: 80%;
+  max-width: 470px;
+  margin: 0 auto;
 }
 .industry p {
   text-align: center;
   font-size: 1.4rem;
   line-height: 2rem;
 }
+.card {
+  width: 328px;
+  border: 1px solid var(--border);
+  padding: 35px 40px;
+  margin: 0 auto 30px auto;
+}
 .card_body {
   font-size: 1.4rem;
   line-height: 2rem;
+}
+.who-we-are {
+  padding-top: 53px;
+  padding-bottom: 174px;
+  background: var(--light);
+}
+.who-we-are div {
+  padding-top: 45px;
+  margin-bottom: 60px;
 }
 .who-we-are p {
   text-align: center;
   font-size: 1.4rem;
   line-height: 2rem;
+  width: 57%;
+  max-width: 470px;
+  margin: 10px auto 0 auto;
 }
-.who-we-are {
+.who-we-are img {
+  width: 306px;
+  height: 442px;
+  display: block;
+  margin: 0 auto;
+}
+.section-four {
+  padding: 75px 0 94px;
   background: var(--light);
+}
+.what-say {
+  width: 70%;
+  max-width: 470px;
+  padding: 0 20px;
+  margin: 0 auto 60px;
 }
 .what-say p {
   text-align: center;
   font-size: 1.4rem;
   line-height: 2rem;
+}
+.review {
+  width: 330px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 30px 35px;
+  margin: 0 auto 30px auto;
+  background: var(--text-light);
 }
 .review p {
   font-weight: 600;
@@ -131,6 +213,22 @@ footer {
 .author-position {
   color: var(--text);
 }
+.section-five {
+  padding: 115px 0 85px;
+}
+.section-five h2,
+.section-five h3 {
+  text-align: left;
+  width: 70%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.booking {
+  width: 70%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
 .booking input,
 select,
 textarea {
@@ -140,6 +238,9 @@ textarea {
   color: var(--border);
   font-size: 1.4rem;
   line-height: 2.4rem;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px 20px;
 }
 .booking button {
   background: var(--primary);
@@ -154,6 +255,22 @@ textarea {
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 2.8rem;
+  margin-top: 40px;
+}
+.section-six {
+  padding: 40px 15%;
+}
+.section-six h2 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 18px;
+}
+.section-six p {
+  margin-bottom: 50px;
+  margin-left: 18px;
+  width: 70%;
 }
 .contact {
   background: var(--primary);
@@ -170,13 +287,33 @@ textarea {
   font-size: 1.4rem;
   line-height: 2.8rem;
 }
+
 footer h3 {
   color: var(--text-light);
+  text-align: left;
 }
 .consultal {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 3.2rem;
+  width: fit-content;
+  padding: 13px 0;
+  margin-bottom: 50px;
+}
+footer div {
+  margin-bottom: 40px;
+}
+footer nav {
+  padding-top: 70px;
+}
+footer nav h3 {
+  margin-bottom: 20px;
+}
+footer nav ul {
+  margin-bottom: 30px;
+}
+footer nav li {
+  margin-bottom: 10px;
 }
 footer nav a {
   color: var(--text-light);
@@ -184,6 +321,9 @@ footer nav a {
   font-weight: 600;
   line-height: 2.4rem;
   text-decoration: none;
+}
+footer section h3 {
+  margin-bottom: 20px;
 }
 .subscribtion {
   background: var(--input-light);
