@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');:root {
   --light: #fafafa;
   --nav-light: #f6f6f6;
   --text-secondary: #737373;
@@ -68,8 +67,8 @@ ul {
   padding: 13px 71px 13px 0;
   width: fit-content;
   position: relative;
-  top: 23px;
-  left: 35px;
+  padding-top: 23px;
+  padding-left: 35px;
 }
 .navigation {
   padding-top: 83px;
@@ -330,13 +329,23 @@ footer section h3 {
   color: var(--text-light);
   border: 1px solid var(--border);
   border-radius: 5px;
+  width: 321px;
+  display: flex;
 }
 .subscribtion input {
   border: none;
   background: none;
+  flex-grow: 1;
+  font-weight: 400;
+  font-size: 1.4rem;
+  padding: 20px 15px;
+}
+.subscribtion input:focus{
+  outline: none;
 }
 .subscribtion input::placeholder {
-  color: var(--text-light);
+  color: var(--text-secondary);
+
 }
 .subscribtion button {
   background: var(--primary);
